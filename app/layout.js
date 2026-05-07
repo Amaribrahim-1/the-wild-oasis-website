@@ -9,7 +9,7 @@ const josefin = Josefin_Sans({
 });
 
 import "@/app/_styles/globals.css";
-import Header from "./_components/Header.jsx";
+import Header from "@/app/_components/Header";
 
 export const metadata = {
   title: {
