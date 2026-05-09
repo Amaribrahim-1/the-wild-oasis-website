@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
+  ppr: true,
   images: {
     qualities: [75, 100],
     remotePatterns: [
