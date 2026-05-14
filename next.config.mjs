@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
-  ppr: true,
+  // ppr: true,
+  // staleTimes: {
+  //   dynamic: 0,
+  //   static: 300,
+  // },
+  cacheComponents: true,
   images: {
-    qualities: [75, 100],
+    qualities: [75, 80, 100],
     remotePatterns: [
       {
         protocol: "https",
