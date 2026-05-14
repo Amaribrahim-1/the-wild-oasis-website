@@ -64,3 +64,12 @@
   --rdp-background-color: var(--color-accent-600) !important;
   margin: 0 !important;
 }
+
+/* لضمان ظهور الأشهر بجانب بعضها */
+.rdp-months {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem;
+  /* مسافة بين الشهرين */
+  justify-content: center;
+}
